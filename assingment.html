@@ -4,49 +4,81 @@
 	<title>
 		Assignment
 	</title>
-
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 </head>
 <body style="background-image: url(main_bg.jpg); ">
 	<header>
 		<div class="topnav">
-		<!-- <div>
-			<img scr="logo.jpg" height="200">	
-		</div> -->
-
-		<a href="" class="logo" ></a>
+		  <a href="" class="logo" ></a>
 		  <a href="#home" class="nav">PRDUCTS</a>
 		  <a href="#news" class="nav">CUSTOMERS</a>
 		  <a href="#contact" class="nav">NEWS+EVENTS</a>
 		  <a href="#about" class="nav">ABOUT US</a>
 		</div>
 	</header>
-
 	<div  class="slider">
 		<div class="cycle-slideshow">
+			<img src="banner_slider_01.jpg"   style="z-index: -1;">
+        	<div class="n">somthing special text</div>
 
-		    
-			<img src="banner_slider_01.jpg"   style="z-index: -1;"
->
+        		<img src="banner_slider_02.jpg"  style="z-index: -1;">
 
-        	<div class="n">somthing special text
-		</div>
-        	<img src="banner_slider_02.jpg"  style="z-index: -1;"  
->
-
-
-        	<div class="centered">somme text
-		</div>
+       		<div class="centered">somme text</div>
 		</div>
 	</div>
+<div class="div2">
+	<h2>THE CONNECTED LIFESTYLE</h2>
+		<hr>
+	<div id="barChart_div" style="width: 300px; height: 250px;float:left; background-color:#fffff0;">
+		<p>one day jackal wake up early and he saw 3 man are beating a dog with no reason</p>
 
+		<p>one day jackal wake up early and he saw 3 man are beating a dog with no reason jackal was clever he called police and police rrested him and lodge FIR against jakal</p>
+		<input type="button" value="LEARN MORE" name="learn_btn" class="learn_btn">
+	</div>
+
+	<div>
+		<div>	
+				<div style="width:100% ;height:25px; background-color: blue;">
+					<label style="padding: 3px; margin-left: 30px;">LOREM IPSUM dolor</label>
+				</div>
+		<div>	
+				<div id="wrapper_1" style="width: 150px; height: 250px; float:right; background-color:#fffff9;">custom1
+					<img src="lifestyle_thmb_img04.png">
+				</div>
+					<div class="seperator">4</div>
+
+				<div id="stats_div" style="width: 150px; height: 250px; float:right; background-color:#ffff00; ">GROW
+					<img src="lifestyle_thmb_img03.png">
+				</div>
+			</div>
+		</div>
+		
+</div>
+
+	<div class="seperator2">3</div>
+<div>
+	<div>
+		<div style="height:25px; ">
+			<label style="padding: 3px; margin-left: 30px;">LOREM IPSUM</label>
+		</div>
+		<div id="stats_div" style="width: 150px; height: 250px; float:right; background-color:#ffff09;">
+			<img src="lifestyle_thmb_img02.png">
+			<p>EXPERIENCE</p>
+		</div>
+		<div class="seperator">2</div>
+		<div id="stats_div" style="width: 150px; height: 250px; float:right; background-color:#ffff00;">
+			<img src="lifestyle_thmb_img01.png">
+			CONNECT
+		</div>
+	</div>
+</div>
+	<div class="seperator2">1</div>
+
+</div>
 </body>
 </html>
-
-
 <style type="text/css">
-	
 	body {
   /*margin: 0;
 */  font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +87,20 @@
     background-attachment: fixed;
 }
 
+.div2
+{
+	height: 400px;
+	width: 73%;
+	background-color: lightgreen;
+		margin-left: 200px;
+		margin-right: 200px;
+    padding: 20px;
+}
 
+.vl {
+    border-left: 6px solid green;
+    height: 10px;
+}
 .centered {
     position: absolute;
     top: 80%;
@@ -75,15 +120,15 @@
 
 .logo
 {
-	   background: url(logo.png) no-repeat 10px center;     height: 50px;
-    width: 300px;
-    margin-left: 190px;
+	    background: url(logo.png) no-repeat 10px center;     height: 50px;
+	    width: 300px;
+	    margin-left: 190px;
 
 }
 .topnav {
-  overflow: hidden;
-  background-color: #D3D3D3;
-    background: linear-gradient(to right, white , lightgrey); /* Standard syntax (must be last) */
+	  overflow: hidden;
+	  background-color: #D3D3D3;
+  	  background: linear-gradient(to right, white , lightgrey); /* Standard syntax (must be last) */
 }
 
 .topnav a {
@@ -100,4 +145,21 @@
   color: black;
 }
 
+.seperator {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	    height: 250px;
+	    width: 2px;
+	    float: right;
+	    background: #000000; 
+}
+
+.seperator2 {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	    height: 250px;
+	    width: 2px;
+	    float: right;
+	    background: #000000; 
+}
 </style>
